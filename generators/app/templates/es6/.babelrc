@@ -1,4 +1,9 @@
 {
-	"presets": ["env"],
-	"plugins": ["transform-class-properties"]
+  "presets": [
+    ["env", 
+      {
+        "modules": false
+      }
+    ]
+  ]
 }
